@@ -42,8 +42,8 @@ body {
 
 .box {
   position: absolute;
-  top: 46%;
-  left: 5rem;
+  top: 200px;
+  left: 10rem;
   z-index: 99;
 }
 
@@ -99,7 +99,7 @@ body {
 .bold {
   font-weight: 700;
 }
-
+/*Mobile Screen*/
 @media screen and (min-width: 350px) and (max-width: 700px) {
   .box {
     display: none;
@@ -143,8 +143,8 @@ body {
     justify-content: center;
   }
 }
-/*Tablet Screem*/
-@media screen and (min-width: 700px) and (max-width: 1000px) {
+/*Tablet Screen*/
+@media screen and (min-width: 700px) and (max-width: 1004px) {
   .box {
     position: absolute;
     left: -4.5rem;
@@ -168,6 +168,21 @@ body {
 
   
 }
+
+/*Laptop Screen*/
+@media screen and (min-width: 1024px) {
+    .box {
+      position: absolute;
+      left: -3.5em;
+      top:400px;
+      width: 200px;
+    }
+    
+  
+  
+  
+    
+  }
 
 /*.attribution
  { font-size: 11px; 
